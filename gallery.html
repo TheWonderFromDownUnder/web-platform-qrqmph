@@ -12,42 +12,46 @@
 
 <h1 title>HNI</h1> <!-- This is for the website's logo -->
 
-<h2 title>Joint the List!</h2> <!-- This is the title as it appears on the page -->
-<div class="center">
-<h2>Stay connected and up to date on the latest offers, happenings and more!</h2> <!-- This is the text that will appear on the message board -->
-</div>
-<div class="right">
-<source media="(min-width:120px)" srcset="banner.jpg">
-</div>
-<div>
-<form name="First Name: " action="/action_page.php" onsubmit="return validateForm()" method="post"> <!-- Prompt to enter first name -->
-  First Name: <input type="text" name="fname"> <!-- place to enter first name -->
-</form>
-</div>
-<br>
-<div>
-<form name="Last Name: " action="/action_page.php" onsubmit="return validateForm()" method="post"> <!-- Prompt to enter surname -->
-  Last Name: <input type="text" name="fname"> <!-- place to enter last name -->
-</form>
-</div>
-</br>
-<div>
-<form name="Email: " action="/action_page.php" onsubmit="return validateForm()" method="post"> <!-- Prompt to enter email -->
-  Email: <input type="text" name="fname"> <!-- place to enter email -->
-</form>
-</div>
-</br>
-<div>
-<label for="Opt-in">Opt-in</label><br>
-<input type="checkbox" id="opt-in" name="opt-in" value="opt-in"> <!-- Prompt to opt in -->
-<span class="tooltiptext">By submitting this form, you agree to receive Email Marketing from HNI. Full details of your rights in relation to your data are set out in our Privacy notice.</span> <!-- Opt in prompting text -->
-</div>
-<br>
-<form  name="form1" id="form1" method="post">  <!-- Text on interactive button prompt -->
-    <input type="submit" class="button4" name="order" 
-        id="order" value="Join Now!" onclick="redirect(Q12/thankyou.html);" > <!-- Clicking on join now buttom should redirect to thankyou.html -->
-</form>
-<br>
+<h2 title>Gallery</h2> <!-- This is the title as it appears on the page -->
+<section class="main">
+        <div class="container">
+        <h1 align="center">jQuery Ajax Gallery Demo</h1>
+        <div class="jquery-script-ads" align="center" style="margin:20px auto"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+            <header class="main-header">
+                    <img style="display:none;" class="spinner" src="loader.gif" alt="loader"/>
+                    <a class="next btn btn-default" href="#">Load more</a>
+            </header>
+            <div class="gallery"></div>
+        </div>
+    </section>
+
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="libs/fancybox/source/jquery.fancybox.js"></script>
+    <script src="js/app.js"></script>
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
   </body>
 <--- Source: https://www.jqueryscript.net/gallery/Create-An-Infinite-Photo-Gallery-with-jQuery-Ajax.html --->
 </html>
