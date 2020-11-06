@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="script.js"></script>
+    <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+  </head>
+  <body>
+<title>Joint the List!</title> <!-- This is the internal title for the page -->
+
+<h1 title>HNI</h1> <!-- This is for the website's logo -->
+
+<h2 title>Joint the List!</h2> <!-- This is the title as it appears on the page -->
+<div class="center">
+<h2>Stay connected and up to date on the latest offers, happenings and more!</h2> <!-- This is the text that will appear on the message board -->
+</div>
+<div class="right">
+<source media="(min-width:120px)" srcset="banner.jpg">
+</div>
+<div>
+<form name="First Name: " action="/action_page.php" onsubmit="return validateForm()" method="post"> <!-- Prompt to enter first name -->
+  First Name: <input type="text" name="fname"> <!-- place to enter first name -->
+</form>
+</div>
+<br>
+<div>
+<form name="Last Name: " action="/action_page.php" onsubmit="return validateForm()" method="post"> <!-- Prompt to enter surname -->
+  Last Name: <input type="text" name="fname"> <!-- place to enter last name -->
+</form>
+</div>
+</br>
+<div>
+<form name="Email: " action="/action_page.php" onsubmit="return validateForm()" method="post"> <!-- Prompt to enter email -->
+  Email: <input type="text" name="fname"> <!-- place to enter email -->
+</form>
+</div>
+</br>
+<div>
+<label for="Opt-in">Opt-in</label><br>
+<input type="checkbox" id="opt-in" name="opt-in" value="opt-in"> <!-- Prompt to opt in -->
+<span class="tooltiptext">By submitting this form, you agree to receive Email Marketing from HNI. Full details of your rights in relation to your data are set out in our Privacy notice.</span> <!-- Opt in prompting text -->
+</div>
+<br>
+<form  name="form1" id="form1" method="post">  <!-- Text on interactive button prompt -->
+    <input type="submit" class="button4" name="order" 
+        id="order" value="Join Now!" onclick="redirect(Q12/thankyou.html);" > <!-- Clicking on join now buttom should redirect to thankyou.html -->
+</form>
+<br>
+  </body>
+<--- Source: https://wowslider.com/wowslider-free-setup.zip --->
+</html>
